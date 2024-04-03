@@ -1392,7 +1392,6 @@ body{
         min-height: 38vh;
         width: 100vw;
         margin-top: -3rem;
-        text-transform: capitalize;
 
         margin-bottom: -2rem;
         top: -2rem;
@@ -1430,7 +1429,6 @@ body{
         padding: 90px 0;
         text-align: center;
         margin-top: -15rem;
-        text-transform: capitalize;
 
         margin-bottom: -8rem;
     }
@@ -1455,12 +1453,10 @@ body{
     .contact{
         text-align: center;
         align-items: center;
-        text-transform: capitalize;
 
     }
     
     .contact .heading{
-        text-transform: capitalize;
         margin-bottom: 3rem;
         margin-top: -2rem;
     }
