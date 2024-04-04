@@ -219,6 +219,8 @@ body{
 }
 
 .accordionItem {
+
+
   height: auto;
   overflow: hidden;
 }
@@ -657,6 +659,8 @@ body{
     line-height: 28px;
     text-align: center;
   }
+
+ 
   .item{
     background:#fff;
     text-align: center;
@@ -735,6 +739,15 @@ body{
     font-family: "Varela Round",Arial,"Helvetica Neue",Helvetica,sans-serif;
     color:#2f2f2f;
   }
+
+  @media (max-width: 550px) {
+	p{
+        font-size:6rem;
+        font-family: "Varela Round",Arial,"Helvetica Neue",Helvetica,sans-serif;
+        line-height: 26px;
+      }
+
+}
 
 .communicate{
     text-align: center;
