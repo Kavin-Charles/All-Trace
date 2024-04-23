@@ -451,73 +451,12 @@ RF and Microwave board design skills.
 
 <section id="contact" class="contact">
     <h1 class="heading">get in touch</h1>
-</section>
 <div class="contact-in">
-    <div class="contact-map">
-      <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=68, 104, W Sambandam Rd, R.S. Puram,Coimbatore 641002&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    <h1>                         #123, 1st Floor,<br>xyz Complex, NSR Road, Saibaba Colony, Coimbatore - 641011. <br>
+    </h1>
+    
     </div>
-    <div class="contact-form">
-      <form action="contactme.php" method="post" onsubmit="return checkform(this);">
-        <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
-            <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
-            <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
-      <h1 style="margin-left: 2rem;" >Captcha</h1>
-      <div class="captcha-text" style="margin-left: 2rem;"id="CaptchaDiv"></div>
-      <div class="capbox-inner" class="contact-form-txt">
-      <h2 style="margin-left: 2rem;">Type the above number:<br></h2>
-      <input type="hidden" id="txtCaptcha" class="contact-form-txt">
-      <input type="text" name="CaptchaInput" id="CaptchaInput" size="15" class="contact-form-email"><br>
-      <input type="submit" value="Submit" name="submit" class="contact-form-btn">
-
-      </div>
-      </div>
-      <br>
-      <br>
-      </form>
-      <script>function checkform(theform){
-        var why = "";
-        
-        if(theform.CaptchaInput.value == ""){
-        why += "- Please Enter CAPTCHA Code.\n";
-        }
-        if(theform.CaptchaInput.value != ""){
-        if(ValidCaptcha(theform.CaptchaInput.value) == false){
-        why += "- The CAPTCHA Code Does Not Match.\n";
-        }
-        }
-        if(why != ""){
-        alert(why);
-        return false;
-        }
-        }
-        
-        var a = Math.ceil(Math.random() * 9)+ '';
-        var b = Math.ceil(Math.random() * 9)+ '';
-        var c = Math.ceil(Math.random() * 9)+ '';
-        var d = Math.ceil(Math.random() * 9)+ '';
-        var e = Math.ceil(Math.random() * 9)+ '';
-        
-        var code = a + b + c + d + e;
-        document.getElementById("txtCaptcha").value = code;
-        document.getElementById("CaptchaDiv").innerHTML = code;
-        
-        // Validate input against the generated number
-        function ValidCaptcha(){
-        var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
-        var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
-        if (str1 == str2){
-        return true;
-        }else{
-        return false;
-        }
-        }
-        // Remove the spaces from the entered and generated code
-        function removeSpaces(string){
-        return string.split(' ').join('');
-        }</script>
-
-    </div>
-    </div>
+  </section>
 
 
     <div class="footer">
