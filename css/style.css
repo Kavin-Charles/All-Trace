@@ -747,6 +747,11 @@ body{
         line-height: 26px;
       }
 
+    .footer p {
+        font-size: small;
+    }
+
+
 }
 
 .communicate{
