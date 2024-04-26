@@ -881,15 +881,14 @@ body{
 }    
 
 .team{
-    min-width: 100vw;
-    min-height: 95vh;
+   
     text-align: center;
     
-    background-color: #222;
+    background-color: #ddd;
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #002e5f;
 }
 
 .team .heading::before, .team .heading::after{
